@@ -1,0 +1,11 @@
+name 'qubell-zabbix'
+maintainer 'Anton Butovich'
+maintainer_email 'abutovich@qubell.com'
+description 'Installs/Configures Zabbix Agent/Server'
+version '0.1.1'
+
+depends 'zabbix', '>= 0.8.0'
+depends 'build-essential', '>= 2.2.3'
+depends 'mysql', '>= 1.3.0'
+depends 'yum-repoforge', '>= 0.5.3'
+depends 'firewall', '= 0.11.8'
